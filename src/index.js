@@ -4,6 +4,23 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const authors = [
+  {
+    name: '',
+    imageUrl: '',
+    imageSource: '',
+    books: ['Uno', 'Dos']
+  }
+];
+
+const state = {
+  turnData: {
+    author: authors[0],
+    books: authors[0].books
+  }
+};
+
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
