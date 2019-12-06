@@ -7,18 +7,15 @@ import Footer from './Components/Footer/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-class App extends Component {
-  render() {
-    return (
-      <div className="container-fluid">
-        <Hero></Hero>
-        <Turn></Turn>
-        <Continue></Continue>
-        <Footer></Footer>
-      </div>
-    )
-  }
-}
+const App = ({turnData}) => {
+  return (
+    <div className="container-fluid">
+      <Hero></Hero>
+      <Turn {...turnData}></Turn>
+      <Continue></Continue>
+      <Footer></Footer>
+    </div>
+  )
+};
 
 export default App;
