@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './App.css';
 import Hero from './Components/Hero/Hero';
 import Turn from './Components/Turn/Turn';

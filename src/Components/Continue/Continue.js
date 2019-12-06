@@ -1,11 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class Continue extends Component {
-  render() {
-    return (
-      <div>Continue</div>
-    )
-  }
-}
+const Continue = () => {
+  return (
+    <div>Continue</div>
+  )
+};
 
 export default Continue;
